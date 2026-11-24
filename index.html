@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Para a Iane ♥</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="bg"></canvas>
+<h1>Para a Iane<small>um mundinho feito de pixels e de amor</small></h1>
+
+<div id="doll" role="button" tabindex="0" aria-label="Bonequinha da Iane. Toque para ouvir um recado">
+  <div id="bubble"></div>
+  <canvas id="sprite" width="16" height="20"></canvas>
+</div>
+
+<div id="ui">
+  <p>toque no chão e a Iane vai até você<br>toque nela para ouvir um recado</p>
+  <button id="abrir">Abrir carta ♥</button>
+</div>
+
+<div id="carta" role="dialog" aria-modal="true" aria-labelledby="ct">
+  <div class="box">
+    <h2 id="ct">Iane,</h2>
+    <p>Eu poderia ter escrito isso em uma mensagem, mas quis construir um lugar inteiro para você.</p>
+    <p>Cada pixel aqui foi pensado com carinho, assim como eu penso em você nos meus dias.</p>
+    <p>Obrigado por ser meu lugar seguro, minha risada favorita e minha melhor companhia.</p>
+    <p>Eu te escolho hoje, amanhã e em todas as fases do jogo.</p>
+    <p>Com todo o meu amor, David ♥</p>
+    <button id="fechar">Fechar</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
